@@ -1,0 +1,24 @@
+{
+  "name": "asynchronism",
+  "version": "1.0.0",
+  "description": "work with asynchornism in JS",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfbarahonag/asycnhronism_with_JS.git"
+  },
+  "keywords": [
+    "callbacks",
+    "promises",
+    "async"
+  ],
+  "author": "jfbarahonag",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jfbarahonag/asycnhronism_with_JS/issues"
+  },
+  "homepage": "https://github.com/jfbarahonag/asycnhronism_with_JS#readme"
+}
