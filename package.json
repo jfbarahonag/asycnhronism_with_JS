@@ -1,10 +1,10 @@
 {
   "name": "asynchronism",
   "version": "1.0.0",
-  "description": "work with asynchornism in JS",
+  "description": "work with asynchronism in JS",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "callback": "node src/callback/index.js"
   },
   "repository": {
     "type": "git",
