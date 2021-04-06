@@ -53,3 +53,12 @@ myPromise.then((msg) => {
 .catch((msg) => {
     console.error(msg);
 })
+
+/** Run the array of promises inserted as parameters of the function -> Run multiple promises at the same time */
+Promise.all( [ somethingWillHappen(), somethingWillHappenV2() ] )
+    .then(response => {
+        console.log('Array of results ' + response);
+    })
+    .catch(err => {
+        console.error(err);
+    })
