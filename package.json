@@ -10,7 +10,8 @@
     "promise": "node src/promises/index.js",
     "promise:challenge": "node src/promises/challenge.js",
     "promise:challenge_native": "node src/promises/challenge_native_way.js",
-    "async": "node src/async/index.js"
+    "async": "node src/async/index.js",
+    "async:challenge": "node src/async/challenge.js"
   },
   "repository": {
     "type": "git",
