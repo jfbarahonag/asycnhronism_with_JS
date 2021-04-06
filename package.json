@@ -9,7 +9,8 @@
     "callback:challenge_native": "node src/callback/challenge_native_way.js",
     "promise": "node src/promises/index.js",
     "promise:challenge": "node src/promises/challenge.js",
-    "promise:challenge_native": "node src/promises/challenge_native_way.js"
+    "promise:challenge_native": "node src/promises/challenge_native_way.js",
+    "async": "node src/async/index.js"
   },
   "repository": {
     "type": "git",
