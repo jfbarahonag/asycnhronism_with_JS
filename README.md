@@ -1,5 +1,5 @@
 # asycnhronism_with_JS
-Here you will find examples callbacks, promises and async await in their corresponding branches.
+Here you will find examples callbacks, promises and async await in their corresponding **branches**.
 
 # Advantages / Disadvantages
 * Callbacks
