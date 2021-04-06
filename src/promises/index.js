@@ -16,6 +16,24 @@ somethingWillHappen()
     .then( (response)   => { console.log(response) })
     .catch( (err)       => { console.error(err) });
 
+const somethingWillHappenV2 = () => {
+    return new Promise((resolve, reject) => {
+        if (true) {
+            setTimeout(() => {
+                resolve('[somethingWillHappenV2] true');
+            }, 2000)   
+        } 
+        else {
+            const error = new Error('Ups')
+            reject(error)
+        }
+    });
+}
+
+somethingWillHappenV2()
+    .then(response => console.log(response))
+    .then(() => console.log("[somethingWillHappenV2] Second then"))
+    .catch(err => console.error(err));
 
 /** Promise executed when the script is loaded */
 const myPromise = new Promise((resolve, reject) => {
