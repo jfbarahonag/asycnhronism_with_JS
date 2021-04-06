@@ -11,7 +11,8 @@
     "promise:challenge": "node src/promises/challenge.js",
     "promise:challenge_native": "node src/promises/challenge_native_way.js",
     "async": "node src/async/index.js",
-    "async:challenge": "node src/async/challenge.js"
+    "async:challenge": "node src/async/challenge.js",
+    "async:challenge_native": "node src/async/challenge_native_way.js"
   },
   "repository": {
     "type": "git",
